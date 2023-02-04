@@ -10,7 +10,7 @@ headerButton.addEventListener('click' , function() {
     headerButton.classList.toggle('active');
     menuView.classList.toggle('active');
     menuBackground.classList.toggle('active');
-    changeImg();
+    setTimeout(changeImg, 200);
 });
 
 function changeImg() {
