@@ -25,3 +25,9 @@ header {
     margin-left: 1em;
     z-index: 3;
 }
+
+.logo_clic {
+    height: 10rem;
+    width: 14rem;
+    z-index: 3;
+}
