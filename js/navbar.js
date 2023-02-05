@@ -1,4 +1,4 @@
-let headerButton = document.querySelector('.menu-btn');
+let headerButton = document.querySelector('.menu_button');
 let menuView = document.querySelector('.menu');
 let menuBackground = document.querySelector('.body');
 let logoImg = document.querySelector('.logo');

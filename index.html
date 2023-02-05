@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/navbar.js" defer></script>
     <title>Document</title>
 </head>
 <body class="body">
@@ -20,12 +21,13 @@
                 <li class="menu-link"><a href="#">Контакти</a></li>
             </ul>
         </nav>
-        <div class="menu-btn">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
+        <button class="menu_button" aria-controls="primary-navigation">
+            <svg class="hamburger" fill="var(--button-color)" viewbox="0 0 100 100">
+                <rect class="top_line" width="80" height="10" x="10" y="25" rx="5"></rect>
+                <rect class="mid_line" width="80" height="10" x="10" y="45" rx="5"></rect>
+                <rect class="bottom_line" width="80" height="10" x="10" y="65" rx="5"></rect>
+            </svg>
+        </button>
     </header>
 </body>
-<script src="js/navbar.js"></script>
 </html>

@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;800&display=swap');
-@import url(kayframes.css);
 
 .body.active {
     background: #000000;
@@ -45,69 +44,49 @@
     color: #FFFFFF;
 }
 
-.menu-btn{
-    display: flex;
-    align-items: flex-end;
-    justify-content: end;
-    width: 40px;
-    height: 40px;
-    position: relative;
+.menu_button {
+    --button-color: #000000;
+    width: 60px;
+    height: 60px;
+    background: none;
+    margin: 80px;
+    padding: 5px;
+    border: none;
+    cursor: pointer; 
     z-index: 3;
-    overflow: hidden;
-    font-weight: bold;
-    margin-top: 5em;
-    margin-right: 6em;
-    padding: 1em;
 }
 
-.menu-btn span {
-    width: 30px;
-    height: 3px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-70%, -70%);
-    background-color: #000000;
-    transition: all 0.5s;
-}
-
-.menu-btn.active {
+.menu_button.active {
     border-radius: 100%;
-    border: solid 2px #FFFFFF;
+    border: solid 3px #FFFFFF;
+    --button-color: #FFFFFF;
     transition: 0.5s;
 }
-
-.menu-btn.active:hover {
-    transform: scale(1.1);
+.menu_button.active:hover {
+    transform: scale(1.2);
     background-color: #FFFFFF;
+    --button-color: #000000;
+}
+.menu_button
+.top_line,
+.mid_line,
+.bottom_line {
+    transition: 1s;
+    transform-origin: center;
 }
 
-.menu-btn.active span {
-    background-color: #FFFFFF;
+.menu_button.active :is(.top_line, .bottom_line) {
+    y: 45;
 }
 
-.menu-btn.active:hover span {
-    background-color: #000000;
+.menu_button.active .top_line {
+    transform: rotate(45deg);
 }
 
-.menu-btn span:nth-of-type(2) {
-    top: calc(50% - 5px);
+.menu_button.active .mid_line {
+    opacity: 0;
 }
 
-.menu-btn span:nth-of-type(3) {
-    top: calc(50% + 5px);
-}
-
-.menu-btn.active span:nth-of-type(1) {
-    display: none;
-}
-
-.menu-btn.active span:nth-of-type(2) {
-    top: 50%;
-    transform: translate(-50%, 0%) rotate(45deg);  
-}
-
-.menu-btn.active span:nth-of-type(3) {
-    top: 50%;
-    transform: translate(-50%, 0%) rotate(-45deg); 
+.menu_button.active .bottom_line {
+    transform: rotate(-45deg);
 }
