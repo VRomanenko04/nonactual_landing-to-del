@@ -8,6 +8,12 @@
     list-style: none;
 }
 
+.menu-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .menu {
     position: fixed;
     display: flex;

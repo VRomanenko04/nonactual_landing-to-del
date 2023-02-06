@@ -1,0 +1,10 @@
+.first-view {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.first-about {
+    max-width: 40%;
+    margin: 4rem 3rem;
+}
