@@ -6,5 +6,47 @@
 
 .first-about {
     max-width: 40%;
-    margin: 4rem 3rem;
+    margin: 5rem 4rem;
+}
+
+.loop-position {
+    position: relative;
+    margin-right: 29rem;
+}
+
+.loop-position.active {
+    display: none;
+}
+
+.loop-position img {
+    position: absolute;
+    width: 15em;
+    height: 20em;
+}
+
+.loop-position :nth-child(1) {
+    transform: rotate(10deg);
+    z-index: 4;
+}
+
+.loop-position :nth-child(2) {
+    transform: rotate(-10deg);
+    z-index: 2;
+}
+
+.loop-position :nth-child(3) {
+    z-index: 3;
+    transform: translateY(5px);
+}
+
+.first-img.active {
+    z-index: 5 !important;
+}
+
+.second-img.active {
+    z-index: 5 !important;
+}
+
+.third-img.active {
+    z-index: 5 !important;
 }
