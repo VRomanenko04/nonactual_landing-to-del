@@ -1,0 +1,21 @@
+.about-title {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    color: #ececec;
+    font-size: 2rem;
+    text-shadow: #000000 3px 3px 3px;
+}
+
+.about-flex {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.about-item {
+    margin-top: 3rem;
+    margin-left: 10rem;
+    max-width: 60%;
+    color: #d0d0d0;
+}
