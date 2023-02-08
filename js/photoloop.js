@@ -5,15 +5,15 @@ let thirdImg = document.querySelector('.third-img');
 function photosAnimation() {
     setTimeout(() => {
         firstImg.classList.toggle('active');
-    }, 1500);
+    }, 1000);
     setTimeout(() => {
         thirdImg.classList.toggle('active');
-    }, 3000);
+    }, 2000);
     setTimeout(() => {
         secImg.classList.toggle('active');
-    }, 5000);
+    }, 3000);
 };
 
 setInterval(() => {
     photosAnimation();
-}, 5000);
+}, 3000);
