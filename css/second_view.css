@@ -10,12 +10,39 @@
 .about-flex {
     display: flex;
     flex-direction: column;
-    
 }
 
 .about-item {
     margin-top: 3rem;
-    margin-left: 10rem;
+    margin-left: 5rem;
     max-width: 60%;
     color: #d0d0d0;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    margin-top: 3rem;
+    margin-left: 5rem;
+    max-width: 60%;
+    color: #d0d0d0;
+    filter: blur(0);
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.about-position {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.animation-position {
+    border-right: #d0d0d0 3px solid;
+    height: 25em;
+    margin-left: 8rem;
+    width: 2em;
+    opacity: 0.5;
 }
