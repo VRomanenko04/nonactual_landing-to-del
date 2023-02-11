@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     padding: 4rem;
-    color: #ececec;
+    color: #e1dfdf;
     font-size: 2rem;
     text-shadow: #000000 3px 3px 3px;
 }
@@ -45,4 +45,19 @@
     margin-left: 8rem;
     width: 2em;
     opacity: 0.5;
+}
+
+.more-about {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2rem 5rem;
+}
+
+.more-about a {
+    text-decoration: none;
+    color: #9b9b9b;
+}
+
+.more-about a:hover {
+    color: #ececec;
 }
