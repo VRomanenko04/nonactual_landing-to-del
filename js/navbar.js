@@ -15,6 +15,7 @@ headerButton.addEventListener('click' , function() {
     setTimeout(changeImg, 200);
 });
 
+//функция замены логотипа с помощью подсчёта кликов
 function changeImg() {
     if (itemSelect === teemsImg.length - 1) {
         itemSelect = 0;
