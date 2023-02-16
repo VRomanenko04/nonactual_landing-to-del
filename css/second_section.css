@@ -50,7 +50,7 @@
 .more-about {
     display: flex;
     justify-content: flex-end;
-    margin: 2rem 5rem;
+    margin: 4rem 5rem;
 }
 
 .more-about a {
@@ -60,4 +60,8 @@
 
 .more-about a:hover {
     color: #ececec;
+}
+
+.first-main {
+    height: 100vh;
 }
