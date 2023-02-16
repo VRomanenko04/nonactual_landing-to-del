@@ -22,6 +22,7 @@
     position: absolute;
     width: 15em;
     height: 20em;
+    border-radius: 7%;
 }
 
 .loop-position :nth-child(1) {
