@@ -1,0 +1,35 @@
+.second-main {
+    height: 105vh;
+    background-color: rgba(210, 129, 245, 0.819);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.vebinar {
+    background-color: #333333;
+    border-radius: 10%;
+    height: 20rem;
+    width: 16rem;
+}
+
+.vebinar h6 {
+    text-align: center;
+    color: #cecece;
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+.vebinar p {
+    margin-top: 20px;
+    padding: 1rem;
+    color: #cecece;
+}
+
+.vebinar-prise {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0 !important;
+}
