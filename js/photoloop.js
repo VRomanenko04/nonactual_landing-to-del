@@ -1,6 +1,6 @@
-let firstImg = document.querySelector('.first-img');
-let secImg = document.querySelector('.second-img');
-let thirdImg = document.querySelector('.third-img');
+let firstImg = document.querySelector('.first-cert');
+let secImg = document.querySelector('.second-cert');
+let thirdImg = document.querySelector('.third-cert');
 
 function photosAnimation() {
     setTimeout(() => {

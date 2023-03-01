@@ -40,14 +40,14 @@
     transform: translateY(5px);
 }
 
-.first-img.active {
+.first-cert.active {
     z-index: 5 !important;
 }
 
-.second-img.active {
+.second-cert.active {
     z-index: 5 !important;
 }
 
-.third-img.active {
+.third-cert.active {
     z-index: 5 !important;
 }
